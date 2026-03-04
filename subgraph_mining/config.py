@@ -68,7 +68,7 @@ def parse_decoder(parser):
     # Set default values
     parser.set_defaults(
         # Dataset defaults
-        dataset="enzymes",
+        dataset="datasets/webStanford.pkl",
         batch_size=1000,
         
         # Decoder defaults
